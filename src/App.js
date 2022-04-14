@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./App.css";
 import CalendarHeader from "./components/CalendarHeader";
+import Container from "./components/Container";
 import EventModal from "./components/EventModal";
 import Month from "./components/Month";
 import Sidebar from "./components/Sidebar";
@@ -20,12 +21,18 @@ function App() {
     <React.Fragment>
       {showEventModal && <EventModal />}
 
-      <div className="h-screen flex flex-col">
+      <div>
         <CalendarHeader />
-        <div className="flex flex-1">
+        <Container className="flex flex-1 h-screen">
+          <Sidebar className=""/>
+          <Month month={currenMonth} className="flex-noe"/>
+        </Container>
+        {/* <Container className="h-screen">
+          <Main>
           <Sidebar />
           <Month month={currenMonth} />
-        </div>
+          </Main>
+        </Container> */}
       </div>
     </React.Fragment>
   );

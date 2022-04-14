@@ -23,16 +23,10 @@ function App() {
 
       <div>
         <CalendarHeader />
-        <Container className="flex flex-1 h-screen">
-          <Sidebar className=""/>
-          <Month month={currenMonth} className="flex-noe"/>
+        <Container className=" flex flex-1 flex-wrap h-screen main-container">
+          <Sidebar className=''/>
+          <Month month={currenMonth}/>
         </Container>
-        {/* <Container className="h-screen">
-          <Main>
-          <Sidebar />
-          <Month month={currenMonth} />
-          </Main>
-        </Container> */}
       </div>
     </React.Fragment>
   );

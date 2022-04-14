@@ -7,7 +7,7 @@ export default function Sidebar() {
   
 
   return (
-    <aside className='border p-4 w-full md:w-64 rounded m-1'>
+    <aside className='border p-4 w-full md:w-64 '>
       <CreateEventButton></CreateEventButton>
       <SmallCalender />
     </aside>

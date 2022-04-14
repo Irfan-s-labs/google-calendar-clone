@@ -20,7 +20,7 @@ export default function CalendarHeader() {
   return (
     <header>
       <Container className="py-2 flex items-center flex-wrap">
-      <img src={logo} alt="calendar" className="mr-2" />
+      <img src={logo} alt="calendar" className="mr-2 ml-5" />
       <h1 className="md:mr-10 xl:text-xl xs:text-base text-gray-500 fond-bold">
         Calendar
       </h1>
@@ -31,12 +31,12 @@ export default function CalendarHeader() {
         Today
       </button>
       <button onClick={handlePrevMonth}>
-        <span className="material-icons-outlined cursor-pointer text-gray-600 mx-2">
+        <span className="material-icons-outlined cursor-pointer text-gray-600 mx-2 bg-indigo-200">
           chevron_left
         </span>
       </button>
       <button onClick={handleNextMonth}>
-        <span className="material-icons-outlined cursor-pointer text-gray-600 mx-2">
+        <span className="material-icons-outlined cursor-pointer text-gray-600 mx-2 bg-indigo-200">
           chevron_right
         </span>
       </button>

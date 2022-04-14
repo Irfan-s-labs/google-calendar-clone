@@ -114,8 +114,8 @@ export default function EventModal() {
                 <span
                   key={i}
                   onClick={() => setSelectedLabel(lblClass)}
-                  className={`bg-blue-400 w-6 h-6 rounded-full flex items-center justify-center cursor-pointer`}
-                  // className={`bg-${lblClass}-500 w-6 h-6 rounded-full flex items-center justify-center cursor-pointer`}
+                  // className={`bg-blue-400 w-6 h-6 rounded-full flex items-center justify-center cursor-pointer`}
+                  className={`bg-${lblClass}-500 w-6 h-6 rounded-full flex items-center justify-center cursor-pointer`}
                 >
                   {selectedLabel === lblClass && (
                     <span className="material-icons-outlined text-white text-sm">

@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "calendar-clone-c0a6f"
+  },
+  "targets": {
+    "calendar-clone-c0a6f": {
+      "hosting": {
+        "scrrumCalendar": [
+          "scrrum-calendar"
+        ]
+      }
+    }
   }
 }

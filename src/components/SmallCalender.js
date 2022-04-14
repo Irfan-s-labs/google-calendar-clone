@@ -49,12 +49,12 @@ const handleNextMonth = () => setCurrentMonthIdx(currentMonthIdx + 1);
         </p>
         <div>
           <button onClick={handlePrevMonth}>
-            <span className="material-icons-outlined cursor-pointer text-gray-600 mx-2">
+            <span className="material-icons-outlined cursor-pointer text-gray-600 mx-2 bg-indigo-200">
               chevron_left
             </span>
           </button>
           <button onClick={handleNextMonth}>
-            <span className="material-icons-outlined cursor-pointer text-gray-600 mx-2">
+            <span className="material-icons-outlined cursor-pointer text-gray-600 mx-2 bg-indigo-200">
               chevron_right
             </span>
           </button>
